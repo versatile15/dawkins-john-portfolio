@@ -49,7 +49,7 @@ export default function Home() {
   const [open, setOpen] = useState(false);
   const [modalProject, setModalProject] = useState(null);
 
-  const handleOpenModal = (project) => {
+  const handleOpenModal = (project: any) => {
     setModalProject(project);
     setOpen(true);
   };
