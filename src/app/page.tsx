@@ -47,7 +47,8 @@ const projects = [
 
 export default function Home() {
   const [open, setOpen] = useState(false);
-  const [modalProject, setModalProject] = useState(null);
+  type Project = typeof projects[number];
+  const [modalProject, setModalProject] = useState<Project | null>(null);
 
   const handleOpenModal = (project: any) => {
     setModalProject(project);
