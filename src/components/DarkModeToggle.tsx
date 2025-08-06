@@ -19,7 +19,7 @@ export default function DarkModeToggle() {
       className="ml-4 rounded-full border border-accent p-2 bg-transparent hover:bg-card dark:hover:bg-surface transition"
       onClick={() => setDark((d) => !d)}
     >
-      {dark ? <Sun size={18} className="text-accent" /> : <Moon size={18} className="text-accent" />}
+      {dark ? <Sun size={18} /> : <Moon size={18} className="text-accent" />}
     </button>
   );
 }

@@ -74,6 +74,7 @@ export default function Home() {
             >
               Dawkins John Tyler
             </motion.h1>
+            <DarkModeToggle />
           </div>
           <h2 className="text-lg md:text-xl font-semibold text-gray-700 dark:text-cyan-200 mb-3 text-center">
             Senior Full Stack Engineer <span className="text-orange-500 dark:text-orange-400">| U.S. Military Veteran</span>
